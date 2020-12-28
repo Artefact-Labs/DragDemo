@@ -1,0 +1,12 @@
+Data list1 = [
+	{ text: "dannick" },
+	{ text: "stark" },
+	{ text: "kwengang" },
+	{ text: "tankeu" },
+]
+Data list2 = [
+	{ text: "tonny" },
+	{ text: "stark" },
+	{ text: "ironman" },
+	{ text: "jarvis" },
+]

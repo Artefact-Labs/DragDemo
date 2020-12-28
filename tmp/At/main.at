@@ -1,0 +1,78 @@
+
+Rectangle{ 
+ 
+ 
+  anchors.right: 0,
+  anchors.left: 0,
+  anchors.top: 0,
+  anchors.bottom: 0,
+  color: "#e3e3e3",
+  child: [
+    Rectangle{
+     
+      id: "rectangleundefined1",
+      width: 236,
+      x: 89,
+      anchors.top: 70,
+      anchors.bottom: 70,
+      color: "#4e536a",
+      radius: 10,
+      child: [
+        Draggable{
+         
+          id: "draggablerectangleundefined11",
+          anchors.right: 0,
+          anchors.left: 0,
+          anchors.top: 0,
+          anchors.bottom: 0,
+          child: [
+            Rectangle{
+             
+              id: "rectangledraggablerectangleundefined111",
+              width: 234,
+              height: 47,
+              x: 0,
+              y: 0,
+              color: "white",
+              radius: 10,
+              modelFor: "<#list1#>",
+              child: [
+                Text{
+                 
+                  id: "textrectangledraggablerectangleundefined1111",
+                  width: "auto",
+                  height: "auto",
+                  value: "<#item.text#>",
+                  anchors.verticalCenter: 0,
+                  anchors.horizontalCenter: 0
+                }
+              ],
+              position: "relative"
+            }
+          ]
+        }
+      ]
+    },
+    Rectangle{
+     
+      id: "rectangleundefined12",
+      width: 236,
+      x: 400,
+      anchors.top: 70,
+      anchors.bottom: 70,
+      color: "#4e536a",
+      radius: 10,
+      child: [
+        Draggable{
+         
+          id: "draggablerectangleundefined11",
+          anchors.right: 0,
+          anchors.left: 0,
+          anchors.top: 0,
+          anchors.bottom: 0
+        }
+      ]
+    },
+  ]
+}, 
+  

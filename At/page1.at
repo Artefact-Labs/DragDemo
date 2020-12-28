@@ -1,0 +1,74 @@
+
+Rectangle{ 
+ 
+ 
+  border: 2,
+  borderColor: "#0eeabb",
+  child: [
+    Text{
+     
+      "align": "center",
+      color: "#09ea23",
+      fontSize: 20,
+      height: 32,
+      anchors.horizontalCenter: 0,
+      id: "textimagerec01",
+      value: "<#count#>",
+      anchors.verticalCenter: 0,
+      width: 72
+    },
+    MouseArea{
+     
+      anchors.bottom: 0,
+      id: "mousearearec3",
+      anchors.left: 0,
+      onClicked: "increment",
+      anchors.right: 0,
+      anchors.top: 0
+    },
+    Rectangle{
+     
+      border: 2,
+      borderColor: "#0a6bc3",
+      child: [
+        Text{
+         
+          "align": "center",
+          color: "#280ac3",
+          fontSize: 20,
+          height: 32,
+          anchors.horizontalCenter: 0,
+          id: "textimagerec01",
+          radius: 0,
+          value: "<#countB#>",
+          anchors.verticalCenter: 0,
+          width: 72
+        },
+        MouseArea{
+         
+          anchors.bottom: 0,
+          id: "mousearearec3",
+          anchors.left: 0,
+          onClicked: "<#clo#>",
+          anchors.right: 0,
+          anchors.top: 0
+        }
+      ],
+      color: "#5bacf7",
+      height: 64,
+      id: "rec",
+      radius: 32,
+      width: 64,
+      x: 85,
+      y: 65
+    }
+  ],
+  color: "#29ab80",
+  height: 100,
+  id: "rec",
+  radius: 50,
+  width: 100,
+  x: 0,
+  y: 0
+}, 
+  
